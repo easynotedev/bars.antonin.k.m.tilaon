@@ -1,7 +1,5 @@
 package com.accenture.tcf.bars.factory;
 
-import com.accenture.tcf.bars.file.InputFile;
-
 public class InputFileFactory {
 
 	private static InputFileFactory iff;
