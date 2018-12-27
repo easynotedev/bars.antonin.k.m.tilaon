@@ -3,7 +3,6 @@ package com.accenture.tcf.bars.factory;
 import java.io.File;
 
 import org.apache.commons.io.FilenameUtils;
-
 import com.accenture.tcf.bars.file.CsvInputFileImpl;
 import com.accenture.tcf.bars.file.IInputFile;
 import com.accenture.tcf.bars.file.TextInputFileImpl;

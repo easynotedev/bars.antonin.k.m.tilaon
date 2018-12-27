@@ -1,10 +1,13 @@
 package com.accenture.tcf.bars.exception;
 
-public class BarsException {
+public class BarsException extends Exception {
 
-	public String INVALID_START_DATE_FORMAT(){
-		return null;
-	}
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = -8563352790702664058L;
+
+	public static final String INVALID_START_DATE_FORMAT = "Error: Invalid Start date format";
 
 	public String INVALID_END_DATE_FORMAT(){
 		return null;
@@ -14,9 +17,7 @@ public class BarsException {
 		return null;
 	}
 
-	public String PATH_DOES_NOT_EXIST(){
-		return null;
-	}
+	public static final String PATH_DOES_NOT_EXIST = "Error: Path does not exist";
 
 	public String NO_SUPPORTED_FILE(){
 		return null;

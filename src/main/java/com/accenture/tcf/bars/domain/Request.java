@@ -1,6 +1,6 @@
 package com.accenture.tcf.bars.domain;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Request {
 	private int billingCycle;
@@ -11,6 +11,9 @@ public class Request {
 		this.billingCycle = billingCycle;
 		this.startDate = startDate;
 		this.endDate = endDate;
+	}
+	public Request() {
+		// TODO Auto-generated constructor stub
 	}
 	public int getBillingCycle() {
 		return billingCycle;
@@ -30,5 +33,9 @@ public class Request {
 	public void setEndDate(Date endDate) {
 		this.endDate = endDate;
 	}
-
+	@Override
+	public String toString() {
+		return "Request [billingCycle=" + billingCycle + ", startDate="
+				+ startDate + ", endDate=" + endDate + "]";
+	}
 }
