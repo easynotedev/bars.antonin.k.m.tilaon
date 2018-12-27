@@ -3,10 +3,12 @@ package com.accenture.tcf.bars.file;
 import java.io.File;
 import java.util.List;
 
-public interface OutputFile {
-	abstract void writeFile(List records);
+public interface IInputFile {
 
-	abstract void setFile(File file);
+	abstract List readFile();
+
+	abstract void setFile();
 
 	abstract File getFile();
+
 }

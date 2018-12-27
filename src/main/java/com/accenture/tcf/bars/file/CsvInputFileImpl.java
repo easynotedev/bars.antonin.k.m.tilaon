@@ -3,7 +3,7 @@ package com.accenture.tcf.bars.file;
 import java.io.File;
 import java.util.List;
 
-public class TextInputFileImpl extends AbstractInputFile {
+public class CsvInputFileImpl extends AbstractInputFile {
 
 	@Override
 	public List readFile() {

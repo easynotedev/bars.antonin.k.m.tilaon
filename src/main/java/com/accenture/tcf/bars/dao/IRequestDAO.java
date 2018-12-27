@@ -1,6 +1,6 @@
 package com.accenture.tcf.bars.dao;
 
-public interface RequestDAO {
+public interface IRequestDAO {
 
 	public void insertRequest();
 
