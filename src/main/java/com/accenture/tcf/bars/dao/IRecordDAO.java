@@ -2,7 +2,8 @@ package com.accenture.tcf.bars.dao;
 
 import java.util.List;
 
-public interface IRecordDAO {
+import com.accenture.tcf.bars.domain.Record;
 
-	public List retrieveRecords();
+public interface IRecordDAO {
+	public List<Record> retrieveRecords();
 }

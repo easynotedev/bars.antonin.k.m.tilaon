@@ -1,0 +1,30 @@
+2018-12-28 08:16:17.158 [Worker-3] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2018-12-28 08:16:17.189 [Worker-3] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2018-12-28 08:16:18.392 [Worker-3] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2018-12-28 08:16:19.548 [Worker-3] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:55605/jrebel/notifications
+2018-12-28 08:16:19.642 [Worker-3] DEBUG EclipseJRebelClientAdapter - listenForLicenseChange org.zeroturnaround.jrebel.ide.common.notifications.LicenseNotifier@16b8fea
+2018-12-28 08:16:19.658 [LWatch] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2018-12-28 08:16:19.783 [LWatch] DEBUG EclipseJRebelClientAdapter - getLicensingStatus
+2018-12-28 08:16:19.783 [Worker-3] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2018-12-28 08:16:19.783 [Worker-3] DEBUG EclipseJRebelClientAdapter - getLicensingStatus
+2018-12-28 08:16:20.080 [LWatch] DEBUG o.z.exec.ProcessExecutor - Executing [C:\jba\jdk-8u25\jre\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\antonin.k.m.tilaon\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\jba\eclipse-4.4.1\plugins\org.zeroturnaround.eclipse.embedder_6.0.0.RELEASE-201410311652\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2018-12-28 08:16:20.080 [Worker-3] DEBUG o.z.exec.ProcessExecutor - Executing [C:\jba\jdk-8u25\jre\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\antonin.k.m.tilaon\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\jba\eclipse-4.4.1\plugins\org.zeroturnaround.eclipse.embedder_6.0.0.RELEASE-201410311652\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2018-12-28 08:16:20.158 [LWatch] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@170ad74
+2018-12-28 08:16:20.189 [Worker-3] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@d7c7a3
+2018-12-28 08:16:21.033 [Worker-3] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@d7c7a3 stopped with exit code 0
+2018-12-28 08:16:21.158 [LWatch] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@170ad74 stopped with exit code 0
+2018-12-28 08:16:21.314 [LWatch] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2018-12-28 08:16:24.361 [LWatch] DEBUG EclipseJRebelClientAdapter - https://headless.zeroturnaround.com/public/api/registrations/add-jrebel-evaluation.php?ping - status:200
+2018-12-28 08:16:24.392 [LWatch] DEBUG EclipseJRebelClientAdapter - detected change in license. notifying listeners
+2018-12-28 08:16:24.392 [LWatch] DEBUG EclipseJRebelClientAdapter - previous: null
+2018-12-28 08:16:24.392 [LWatch] DEBUG EclipseJRebelClientAdapter - new: LicensingStatus [ hasLicense = true ; error = 'You do not have a valid license!; activationStatus=null; ]
+2018-12-28 08:16:24.423 [org.zeroturnaround.jrebel.ide.common.notifications.UserNotifications_queueProcessor] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2018-12-28 08:16:24.423 [org.zeroturnaround.jrebel.ide.common.notifications.UserNotifications_queueProcessor] DEBUG EclipseJRebelClientAdapter - getLicensingStatus
+2018-12-28 08:16:24.423 [org.zeroturnaround.jrebel.ide.common.notifications.UserNotifications_queueProcessor] DEBUG o.z.exec.ProcessExecutor - Executing [C:\jba\jdk-8u25\jre\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\antonin.k.m.tilaon\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\jba\eclipse-4.4.1\plugins\org.zeroturnaround.eclipse.embedder_6.0.0.RELEASE-201410311652\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2018-12-28 08:16:24.439 [Worker-3] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2018-12-28 08:16:24.454 [Thread-29] DEBUG EclipseJRebelClientAdapter - getLicensingStatus
+2018-12-28 08:16:24.454 [Thread-29] DEBUG o.z.exec.ProcessExecutor - Executing [C:\jba\jdk-8u25\jre\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\antonin.k.m.tilaon\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\jba\eclipse-4.4.1\plugins\org.zeroturnaround.eclipse.embedder_6.0.0.RELEASE-201410311652\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2018-12-28 08:16:24.470 [org.zeroturnaround.jrebel.ide.common.notifications.UserNotifications_queueProcessor] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@11d9369
+2018-12-28 08:16:24.517 [Thread-29] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@c6cc71
+2018-12-28 08:16:25.361 [Thread-29] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@c6cc71 stopped with exit code 0
+2018-12-28 08:16:25.407 [org.zeroturnaround.jrebel.ide.common.notifications.UserNotifications_queueProcessor] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@11d9369 stopped with exit code 0

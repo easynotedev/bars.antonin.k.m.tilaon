@@ -3,6 +3,8 @@ package com.accenture.tcf.bars.factory;
 import java.io.File;
 
 import org.apache.commons.io.FilenameUtils;
+
+import com.accenture.tcf.bars.exception.BarsException;
 import com.accenture.tcf.bars.file.CsvInputFileImpl;
 import com.accenture.tcf.bars.file.IInputFile;
 import com.accenture.tcf.bars.file.TextInputFileImpl;
@@ -20,7 +22,7 @@ public class InputFileFactory {
 		return iff;
 	}
 
-	public static IInputFile getInputFile(File file){
+	public IInputFile getInputFile(File file) throws BarsException{
 		String filenameext = FilenameUtils.getExtension(file.getName());
 		IInputFile inputfile = null;
 		if(filenameext.equalsIgnoreCase("txt")){

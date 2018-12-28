@@ -12,7 +12,7 @@ public class CsvInputFileImpl extends AbstractInputFile {
 	}
 
 	@Override
-	public void setFile() {
+	public void setFile(File file) {
 		// TODO Auto-generated method stub
 
 	}

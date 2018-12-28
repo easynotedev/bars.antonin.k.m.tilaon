@@ -4,19 +4,30 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.apache.log4j.Logger;
+
 public class MySQLDatasource {
 
-	 static String url = "jdbc:mysql://localhost/bars_db?useTimezone=true&serverTimezone=UTC";
-	 static String username = "root";
-	 static String password = "root";
+	private static Connection conn;
+	public static final SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+	static Logger logger = Logger.getLogger(MySQLDatasource.class);
 
-	public MySQLDatasource(){
-
+	public static Connection getConnection() {
+		if(conn==null) {
+			try {
+				conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bars_db?useSSL=false&serverTimezone=UTC", "root", "root");
+			} catch (SQLException e) {
+				logger.error(e.getMessage());
+			}
+		}
+		else
+			return conn;
+		return conn;
 	}
 
-	public static Connection getConnection() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.cj.jdbc.Driver");
-		return DriverManager.getConnection(url,username,password);
-	}
-
+	public static SessionFactory getSessionFactory() {
+        return factory;
+    }
 }
